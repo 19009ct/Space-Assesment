@@ -1,14 +1,26 @@
-  body, html {
-  height: 100%;
-  background-image: url("background.giff");
-  height: 100%;
+body, html {
+height: 100%; 
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 1080px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-    
 }
-
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 
 .title {
   font-size: 50px;
@@ -18,3 +30,10 @@
   color: white;
 }
 ayyyyyyyyyye, sweet momma rock me stone me pebble me igneous me 
+
+  height: 100%;
+  background-image: url("background.giff");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
