@@ -3,11 +3,12 @@ height: 100%;
 }
 
 .parallax {
-  /* The image used */
+  /* Parallax-image */
   background-image: url("parallax.jpg");
 
-  /* Set a specific height */
+  /* Dimensions */
   min-height: 1080px;
+  min-width: 1920px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -29,7 +30,21 @@ height: 100%;
   padding-top: 100px;
   color: white;
 }
-ayyyyyyyyyye, sweet momma rock me stone me pebble me igneous me 
+
+.banner {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+.directarrow {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+ayyyyyyyyyye, sweet momma rock me stone me pebble me igneous me  \
+WELCOME TO THE CUM BUCKET
 
   height: 100%;
   background-image: url("background.giff");
