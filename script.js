@@ -16,10 +16,10 @@ score = 0;
 alert('Some quick ground rules \n - Nothing is spelt with a capital letter, so please enter all lower-case letters. \n - If you get a question wrong, it deducts a point from your overall tally, if you get one right it will add a point. \n Other than that, you may click the continue button!');
 
 //question one
-var qone = prompt('Insert Question One');
+var qone = prompt('What was the name of the 18 mirrored space telescope that launched on the 25th of December 2021? \n a - The James Webb Space Telescope \n b - The Hubble \n c - The Spitzer \n d - Kepler');
 
-while (qone != 'Insert answer One') {
-  var qone = prompt('Insert Question One');
+while (qone != 'a') {
+  var qone = prompt(name + 'What was the name of the 18 mirrored space telescope that launched on the 25th of December 2021? \n The James Webb Space Telescope \n The Hubble \n The Spitzer \n Kepler');
   score = score - 1;
 }
 
