@@ -9,6 +9,7 @@ height: 100%;
   /* Dimensions */
   min-height: 1080px;
   min-width: 1920px;
+  height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
