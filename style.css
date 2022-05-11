@@ -49,7 +49,7 @@ height: 100%;
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: ;
+  background-color: #435861;
   overflow: hidden;
 }
 
@@ -58,19 +58,20 @@ height: 100%;
   float: left;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: "sans-serif";
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: blue;
+  background-color: #87cefa;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: rebeccapurple;
+  background-color: #203354; 
   color: white;
 }
