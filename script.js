@@ -23,19 +23,19 @@ while (qone != 'a') {
   score = score - 1;
 }
 
-if (qone == 'Insert Answer One') {
+if (qone == 'What was the name of the 18 mirrored space telescope that launched on the 25th of December 2021? ') {
 alert ('Correct ' + name)
 score = score + 1;
 } 
 //question two
-var qtwo = prompt('Insert Question Two');
+var qtwo = prompt('How far is a light year? \n a 8.5 billion Km\n b 10.5 trillion years \n c 6.2 sextillion Km \n d 9.5 trillion Km');
 
-while (qtwo != 'Insert Answer Two') {
-  var qtwo = prompt('Insert Question Two');
+while (qtwo != 'a') {
+  var qtwo = prompt(name + '');
   score = score - 1;
 }
 
-if (qtwo == 'Insert Answer Two') {
+if (qtwo == '') {
 alert ('Correct ' + name)
 score = score + 1;
 }
