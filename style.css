@@ -35,7 +35,7 @@ height: 100%;
 
 .banner {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   color: white;
   text-shadow: 3px 3px 5px black;
 }
@@ -62,7 +62,8 @@ height: 100%;
   color: white;
   text-shadow: 3px 3px 5px black;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "Arial narrow", sans-serif;
+  letter-spacing: 1px;
 }
 
 /* Add a black background color to the top navigation */
@@ -98,3 +99,4 @@ height: 100%;
   text-shadow: 2px 2px 3px black;
   box-shadow: none;
 }
+
