@@ -30,8 +30,9 @@ score = score + 1;
 //question two
 var qtwo = prompt('How far is a light year? \n a 8.5 billion Km\n b 10.5 trillion years \n c 6.2 sextillion Km \n d 9.5 trillion Km');
 
-while (qtwo != 'a') {
-  var qtwo = prompt(name + '');
+while (qtwo != 'd') {
+  var qtwo = prompt(name + 'How far is a light year? \n 8.5 billion Km 10.5 trillion years \n 6.2 sextillion Km \n 9.5 trillion Km
+');
   score = score - 1;
 }
 

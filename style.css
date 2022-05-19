@@ -30,18 +30,27 @@ height: 100%;
   padding-top: 100px;
   color: white;
   text-align: center;
+  text-shadow: 3px 3px 5px black;
 }
 
 .banner {
   text-align: center;
   font-family: sans-serif;
   color: white;
+  text-shadow: 3px 3px 5px black;
 }
 
 .directarrow {
   text-align: center;
   font-size: 50px;
   color: white;
+  text-shadow: 3px 3px 5px black;
+}
+
+.h1 {
+  text-align: center;
+  color:white;
+  text-shadow: 3px 3px 5px black;
 }
 
 .hr {
