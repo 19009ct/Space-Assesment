@@ -2,9 +2,11 @@
 height: 100%; 
 }
 
+/* index0 parallax */
+
 .parallax {
   /* Parallax-image */
-  background-image: url("parallax.jpg");
+  background-image: url("images/parallax.jpg");
 
   /* Dimensions */
   min-height: 1080px;
@@ -19,6 +21,75 @@ height: 100%;
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* Facts parallax */
+
+.parallax1 {
+  /* Parallax-image */
+  background-image: url("images/parallax1.jpeg");
+
+  /* Dimensions */
+  min-height: 1080px;
+  min-width: 1920px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax1 {
+    background-attachment: scroll;
+  }
+}
+
+/* Quiz parallax */
+
+.parallax2 {
+  /* Parallax-image */
+  background-image: url("images/parallax2.jpg");
+
+  /* Dimensions */
+  min-height: 1080px;
+  min-width: 1920px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
+
+/* index3 parallax */
+
+ .parallax3 {
+  /* Parallax-image */
+  background-image: url("images/parallax3.png");
+
+  /* Dimensions */
+  min-height: 1080px;
+  min-width: 1920px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax3 {
     background-attachment: scroll;
   }
 }
@@ -62,6 +133,24 @@ height: 100%;
   color: white;
   text-shadow: 3px 3px 5px black;
   font-size: 20px;
+  font-family: "Arial narrow", sans-serif;
+  letter-spacing: 1px;
+}
+
+.timemark1 {
+  text-align: left;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+  font-size: 10px;
+  font-family: "Arial narrow", sans-serif;
+  letter-spacing: 1px;
+}
+
+.timemark2 {
+  text-align: left;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+  font-size: 10px;
   font-family: "Arial narrow", sans-serif;
   letter-spacing: 1px;
 }
