@@ -1,4 +1,5 @@
 // DON'T TOUCH, BARELY WORKING //
+// ADD LETTERS TO INCORRECT ANSWER CODE TOO - (FORMAT "Letter - Answer") //
 
 function quiz(){
 
@@ -20,7 +21,7 @@ alert('Some quick ground rules \n - Nothing is spelt with a capital letter, so p
 var qone = prompt('What was the name of the 18 mirrored space telescope that launched on the 25th of December 2021? \n a - The James Webb Space Telescope \n b - The Hubble \n c - The Spitzer \n d - Kepler');
 
 while (qone != 'a') {
-  var qone = prompt(name + 'What was the name of the 18 mirrored space telescope that launched on the 25th of December 2021? \n The James Webb Space Telescope \n The Hubble \n The Spitzer \n Kepler');
+  var qone = prompt(name + 'What was the name of the 18 mirrored space telescope that launched on the 25th of December 2021? \n a - The James Webb Space Telescope \n b - The Hubble \n c - The Spitzer \n d - Kepler');
   score = score - 1;
 }
 
@@ -29,10 +30,10 @@ alert ('Correct ' + name);
 score = score + 1;
 } 
 //question two
-var qtwo = prompt('How far is a light year? \n a 8.5 billion Km\n b 10.5 trillion years \n c 6.2 sextillion Km \n d 9.5 trillion Km');
+var qtwo = prompt('How far is a light year? \n a - 8.5 billion Km\n b - 10.5 trillion years \n c - 6.2 sextillion Km \n d - 9.5 trillion Km');
 
 while (qtwo != 'd') {
-  var qtwo = prompt(name + 'How far is a light year? \n 8.5 billion Km 10.5 trillion years \n 6.2 sextillion Km \n 9.5 trillion Km');
+  var qtwo = prompt(name + 'How far is a light year? \n a - 8.5 billion Km \n b - 10.5 trillion years \n c - 6.2 sextillion Km \n d - 9.5 trillion Km');
   score = score - 1;
 }
 
