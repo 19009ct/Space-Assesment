@@ -9,8 +9,8 @@ height: 100%;
   background-image: url("images/parallax.jpg");
 
   /* Dimensions */
-  min-height: 1080px;
-  min-width: 1920px;
+  min-height: 1920px;
+  min-width: 1080px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -19,7 +19,7 @@ height: 100%;
   background-size: cover;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1299px) {
   .parallax {
     background-attachment: scroll;
   }
@@ -42,7 +42,7 @@ height: 100%;
   background-size: cover;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1299px) {
   .parallax1 {
     background-attachment: scroll;
   }
@@ -65,7 +65,7 @@ height: 100%;
   background-size: cover;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1299px) {
   .parallax2 {
     background-attachment: scroll;
   }
@@ -88,7 +88,7 @@ height: 100%;
   background-size: cover;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1299px) {
   .parallax3 {
     background-attachment: scroll;
   }
@@ -189,3 +189,34 @@ height: 100%;
   box-shadow: none;
 }
 
+/* Sticky header code */
+
+.top-container {
+  background-color: #262526;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #262526;
+  color: white;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}

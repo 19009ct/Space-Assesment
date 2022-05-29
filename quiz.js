@@ -1,15 +1,14 @@
-
+function quiz(){
 
 alert('Welcome to a quiz about the known Universe');
 var name = prompt('What is your name?');
 
-var good = ['Good Morning ', 'Hello ', 'How are you ']
+var good = ['Good Morning ', 'Hello ', 'How are you '];
 
-var yay = ['Congrats ', 'Good work ', 'Correct ',]
-var run = Math.floor(Math.random() * 3)
+var yay = ['Congrats ', 'Good work ', 'Correct ',];
+var run = Math.floor(Math.random() * 3);
 
-alert(good[run] + name)
-
+alert(good[run] + name);
 
 score = 0;
 
@@ -24,7 +23,7 @@ while (qone != 'a') {
 }
 
 if (qone == 'What was the name of the 18 mirrored space telescope that launched on the 25th of December 2021? ') {
-alert ('Correct ' + name)
+alert ('Correct ' + name);
 score = score + 1;
 } 
 //question two
@@ -37,7 +36,7 @@ while (qtwo != 'd') {
 }
 
 if (qtwo == '') {
-alert ('Correct ' + name)
+alert ('Correct ' + name);
 score = score + 1;
 }
 //question three
@@ -49,7 +48,7 @@ while (qthree != 'Insert Answer Three') {
 }
 
 if (qthree == 'Insert Answer Three') {
-alert ('Correct ' + name)
+alert ('Correct ' + name);
 score = score + 1;
 } 
 
@@ -62,7 +61,7 @@ while (qfour != 'Insert Answer Four') {
 }
 
 if (qfour == 'Insert Answer Four') {
-alert ('Correct ' + name)
+alert ('Correct ' + name);
 score = score + 1;
 }
 
@@ -75,7 +74,7 @@ while (qfive != 'Insert Answer Five') {
 }
 
 if (qfive == 'Insert Answer Five') {
-alert ('Correct ' + name)
+alert ('Correct ' + name);
 score = score + 1;
 } 
 
@@ -84,29 +83,31 @@ alert('Congratulations, you\'re a star ' + name + '. You managed to get a score 
 }
 
 if (score == 5){
-alert('You did alright ' + name + '. You may not have got a perfect score but you can always try again. You have concludede with a total score of ' + score + '.')
+alert('You did alright ' + name + '. You may not have got a perfect score but you can always try again. You have concludede with a total score of ' + score + '.');
 
 }
 if (score == 4){
-alert('You made an average effort ' + name + '. You did not get a perfect score but you can always try again. You ended up with a overall score of ' + score + '.')
+alert('You made an average effort ' + name + '. You did not get a perfect score but you can always try again. You ended up with a overall score of ' + score + '.');
 
 }
 if (score == 3){
-alert('Halfway ' + name + '. Whilst you did not win, you did try your hardest and managed to get a score of ' + score + '.')
+alert('Halfway ' + name + '. Whilst you did not win, you did try your hardest and managed to get a score of ' + score + '.');
 
 }
 if (score == 2){
-alert('You need to pick up a astrophysics book ' + name + '. You could even try a astronomy book. You managed a score of ' + score + '.')
+alert('You need to pick up a astrophysics book ' + name + '. You could even try a astronomy book. You managed a score of ' + score + '.');
 
 }
 if (score == 1){
-alert('You did really bad ' + name + '. You did terrible, come see me when you have more knowlege. Your utterly terrible score was ' + score + '.')
+alert('You did really bad ' + name + '. You did terrible, come see me when you have more knowlege. Your utterly terrible score was ' + score + '.');
 
 }
 
 if (score <= 0){
-alert('Terrible ' + name + ', Absolutly terrible. I dont know how but you managed to get a score of ' + score + '. That is truly sad.')
+alert('Terrible ' + name + ', Absolutly terrible. I dont know how but you managed to get a score of ' + score + '. That is truly sad.');
 
 }
 
-alert('Thank you ' + name + '. You have succsesfuly completed the quiz and got a score of ' + score + '. Good bye')
+alert('Thank you ' + name + '. You have succsesfuly completed the quiz and got a score of ' + score + '. Good bye');
+  
+}
