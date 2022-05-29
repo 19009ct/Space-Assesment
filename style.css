@@ -159,6 +159,7 @@ height: 100%;
 .topnav {
   background-color: #435861;
   overflow: hidden;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -200,7 +201,7 @@ height: 100%;
 /* Style the header */
 .header {
   padding: 10px 16px;
-  background: #262526;
+  background-color: #262526;
   color: white;
 }
 
