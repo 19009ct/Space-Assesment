@@ -222,7 +222,7 @@ section {
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Trebuchet MS", sans-serif, Arial;
   color: white;
   text-shadow: 3px 3px 5px black;
   margin-left: 100px;
