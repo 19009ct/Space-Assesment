@@ -11,6 +11,7 @@ height: 100%;
   /* Dimensions */
   min-height: 1920px;
   min-width: 1080px;
+  position: absolute;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -155,6 +156,7 @@ height: 100%;
   letter-spacing: 1px;
 }
 
+/*TOP NAV*/
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #435861;
@@ -190,6 +192,54 @@ height: 100%;
   box-shadow: none;
 }
 
+section {
+  width: 75%;
+  margin: 50px;
+  background-color: #333130; 
+  padding: 20px;
+  border-radius: 10px;
+  bottom: 50px;
+  position: relative;
+  top: 50px;
+  left: 8.5%;
+}
+
+.secpara {
+  text-align: center;
+  color:white;
+  text-shadow: 3px 3px 5px black;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.secheader {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+  margin-left: 100px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
 /* Sticky header code */
 
 .top-container {
@@ -221,3 +271,4 @@ height: 100%;
 .sticky + .content {
   padding-top: 102px;
 }
+
