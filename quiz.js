@@ -37,7 +37,7 @@ while (qtwo != 'd') {
   score = score - 1;
 }
 
-if (qtwo == '') {
+if (qtwo == 'd') {
 alert ('Correct ' + name);
 score = score + 1;
 }
