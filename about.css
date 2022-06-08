@@ -1,4 +1,9 @@
 /*Text color */
+.h1 {
+  font-family: sans-serif;
+  color: white;
+}
+.p {}
 
 /*TOP NAV*/
 /* Add a black background color to the top navigation */
